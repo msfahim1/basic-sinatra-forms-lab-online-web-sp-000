@@ -6,6 +6,7 @@ erb :newteam
 end
 get '/team'do
 puts params
+@rams = params
 erb :team
 end
 post '/team' do
