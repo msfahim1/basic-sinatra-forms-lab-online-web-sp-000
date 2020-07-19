@@ -8,7 +8,7 @@ get '/team'do
 erb :team
 end
 post '/team' do
-  "Team Name: #{{params[:name]}}
+  "Team Name: #{params[:name]}
   Coach: #{params[:coach]}
   Point Guard #{params[:pg]}
   Shooting Guard #{params[:sg]}
